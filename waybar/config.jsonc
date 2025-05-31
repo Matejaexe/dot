@@ -1,0 +1,35 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "position": "top",
+    "width": 1900,
+    "spacing": 2,
+    "modules-left": [
+        "custom/arch",
+        "cpu",
+        "memory",
+        "temperature",
+        "power-profiles-daemon",
+        "custom/cava_mviz",
+        "mpris"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "idle_inhibitor",
+        "pulseaudio",
+        "backlight",
+        "network#speed",
+        "network",
+        "bluetooth",
+        "hyprland/language",
+        "tray",
+        "custom/swaync",
+        "clock",
+        "custom/power"
+    ],
+    "include": [
+        "~/.config/waybar/modules.json"
+    ]
+}
